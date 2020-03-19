@@ -1,11 +1,38 @@
 .body {
     background-color: lightslategrey;
-    }
+}
 
+.padding-0 {
+    padding: 0px
+}
 
-.container-fluid {
-    background-color: grey;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    }
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.foot {
+    display: block;
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.col-md-12 {
+    display: flex !important;
+    justify-content: space-evenly;
+    padding: 70px;
+    text-align: center;   
+}
+
+.copyrights {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-link {
+    color: whitesmoke;
+}
